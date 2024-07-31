@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 02</title>
+</head>
+<body>
+    <h1>Outros tipos de formularios</h1>
+    <form action="cadastro.php" method="get">
+    <p>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome id="nome" autocomplete="username" required maxlength="20">
+    </p>
+    <p>
+        <label for="nascimento">Data de Nascimento:</label>
+        <input type="date" name="nascimento" id="nascimento" required>
+    </p>
+    <p>
+        <!-- value:Numero que vai mostar inicial-->
+         <!--step:Para numeros quebrados , crecer de 0.1 , 0.2 ...-->
+        <label for="media">Média:</label>
+        <input type="number" name="media" id="media" value="0"
+        step="0.1">
+    </p>
+    <p>
+        <label for="horario">Horário:</label>
+        <input type="time" name="horario" id="horario">
+    </p>
+    <p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+    </p>
+</form>
+</body>
+</html>

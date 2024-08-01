@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color, Range e File</title>
+</head>
+<body>
+    <h1>Exeplo de Formulários</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="cor">Cor:</label>
+            <input type="color" name="cor" id="cor" value="#a96a37">
+        </p>
+        <p>
+            <label for="nivel">Nivel:</label>
+            <input type="range" name="nivel" id="nivel" value="10">
+        </p>
+        <p>
+            <label for="foto">Foto Favorita:</label>
+            <input type="file" name="foto" id="foto">
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
